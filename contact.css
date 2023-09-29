@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.Contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(img/c8.jpg);
+    background-size: cover;
+}
+.Contact .Content{
+    max-width: 800px;
+    text-align: center;
+}
+.Contact .Content h2{
+    font-size: 36px ;
+    font-weight: 500;
+    color: #fff;
+}
+.Contact .Content p{
+    font-weight: 300;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactinfo .box .text{
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        color: #fff;
+        flex-direction: column;
+        font-size: 300;
+}
+.contact-form h2{
+    color: #fff;
+}
+.contact-form .inputBox{
+    color: #fff;
+}
+
+
+
+
+
+
+

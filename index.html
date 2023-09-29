@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple To Do List</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+     <div class="topnav">
+        <a class="navbar-brand" href="#">TODOs List</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="active" href="#home">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Feedback.html">Feedback</a>
+      </div>
+      
+      <div class="container">
+        <div id="newtask">
+            <input type="text" placeholder="Task to be done..">
+            <button id="push1">Add</button>
+        </div>
+        <div id="tasks"></div>
+    </div>
+    
+    <style>
+        /* css Reset */
+        body{ 
+            color:rgb(0, 0, 0);
+            font-family: 'Open Sans Condensed', sans-serif;
+            margin:0px;
+            padding:0px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: change 50s infinite ease-in-out; 
+            
+        }
+        @keyframes change 
+    {
+        0%
+        {
+            background-image: url(img/c1.jpg);
+        }
+        20%
+        {
+            background-image: url(img/c2.jpg);
+        }
+        40%
+        {
+            background-image: url(img/c3.jpg);
+        }
+        60%
+        {
+            background-image: url(img/c4.jpg);
+        }
+        80%
+        {
+            background-image: url(img/c5.jpg);
+        }
+        100%
+        {
+            background-image: url(img/c6.jpg);
+        }
+    
+    }
+        
+    </style>
+
+
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
